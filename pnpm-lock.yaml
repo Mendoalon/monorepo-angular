@@ -32,6 +32,9 @@ dependencies:
   '@nrwl/angular':
     specifier: 15.5.0
     version: 15.5.0(@angular-devkit/build-angular@15.1.6)(@angular/common@15.1.5)(@angular/core@15.1.5)(@babel/core@7.23.0)(@types/node@16.11.7)(cypress@12.17.4)(eslint@8.15.0)(nx@15.5.0)(prettier@2.8.8)(typescript@4.8.4)
+  bootstrap-icons:
+    specifier: ^1.11.1
+    version: 1.11.1
   rxjs:
     specifier: ~7.5.0
     version: 7.5.7
@@ -4398,6 +4401,10 @@ packages:
 
   /boolbase@1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
+
+  /bootstrap-icons@1.11.1:
+    resolution: {integrity: sha512-F0DDp7nKUX+x/QtpfRZ+XHFya60ng9nfdpdS59vDDfs4Uhuxp7zym/QavMsu/xx51txkoM9eVmpE7D08N35blw==}
+    dev: false
 
   /brace-expansion@1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
