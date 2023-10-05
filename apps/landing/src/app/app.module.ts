@@ -9,6 +9,7 @@ import { DescriptionComponent } from './components/description/description.compo
 import { TopicsComponent } from './components/topics/topics.component';
 import { LevelComponent } from './components/level/level.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { SharedUiModule } from '@ainter/shared/ui';
 
 
 @NgModule({
@@ -20,7 +21,10 @@ import { BannerComponent } from './components/banner/banner.component';
     LevelComponent,
     BannerComponent,
   ],
-  imports: [BrowserModule, LayoutModule],
+  imports: [
+    BrowserModule,
+     LayoutModule,
+    SharedUiModule],
   providers: [],
   bootstrap: [AppComponent],
 })
